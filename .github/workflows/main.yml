@@ -31,8 +31,9 @@ jobs:
     steps:
       - name: Check out repository code
         uses: actions/checkout@v2
-        
+
       - name: Run black formatter
-      uses: rickstaa/action-black@v1.1.14
+        uses: rickstaa/action-black@v1.1.14
+
 
 
